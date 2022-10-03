@@ -19,6 +19,14 @@ Short description about the project.
 </p>
 
 ---
+## Overview 
+This app intended to work as a price tracking app that lets the user select an object of their liking and view real-time price updates on the same.
+
+To the Contributors, run the project, add new features, improve UI and database!
+
+Don't forget to add your name and details under Contributors. Happy Coding!
+
+Please consider leaving a ⭐ if you like the repository and our organisation :)
 ## Submitting a Pull Request
 
  * Fork the repository by clicking the fork button on top right corner of the page
