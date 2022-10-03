@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBB280CA28EB4D2400CB0A59 /* valuEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB280C928EB4D2400CB0A59 /* valuEyeApp.swift */; };
+		BBB280CC28EB4D2400CB0A59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB280CB28EB4D2400CB0A59 /* ContentView.swift */; };
+		BBB280CE28EB4D2600CB0A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB280CD28EB4D2600CB0A59 /* Assets.xcassets */; };
+		BBB280D128EB4D2600CB0A59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB280D028EB4D2600CB0A59 /* Preview Assets.xcassets */; };
+		BBB280D328EB4D2600CB0A59 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB280D228EB4D2600CB0A59 /* Persistence.swift */; };
+		BBB280D628EB4D2600CB0A59 /* valuEye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBB280D428EB4D2600CB0A59 /* valuEye.xcdatamodeld */; };
+		BBB280E028EB4D2700CB0A59 /* valuEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB280DF28EB4D2700CB0A59 /* valuEyeTests.swift */; };
+		BBB280EA28EB4D2700CB0A59 /* valuEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB280E928EB4D2700CB0A59 /* valuEyeUITests.swift */; };
+		BBB280EC28EB4D2700CB0A59 /* valuEyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB280EB28EB4D2700CB0A59 /* valuEyeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBB280DC28EB4D2700CB0A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB280BE28EB4D2300CB0A59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB280C528EB4D2400CB0A59;
+			remoteInfo = valuEye;
+		};
+		BBB280E628EB4D2700CB0A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB280BE28EB4D2300CB0A59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB280C528EB4D2400CB0A59;
+			remoteInfo = valuEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBB280C628EB4D2400CB0A59 /* valuEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = valuEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB280C928EB4D2400CB0A59 /* valuEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valuEyeApp.swift; sourceTree = "<group>"; };
+		BBB280CB28EB4D2400CB0A59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBB280CD28EB4D2600CB0A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBB280D028EB4D2600CB0A59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBB280D228EB4D2600CB0A59 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BBB280D528EB4D2600CB0A59 /* valuEye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = valuEye.xcdatamodel; sourceTree = "<group>"; };
+		BBB280DB28EB4D2700CB0A59 /* valuEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = valuEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB280DF28EB4D2700CB0A59 /* valuEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valuEyeTests.swift; sourceTree = "<group>"; };
+		BBB280E528EB4D2700CB0A59 /* valuEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = valuEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB280E928EB4D2700CB0A59 /* valuEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valuEyeUITests.swift; sourceTree = "<group>"; };
+		BBB280EB28EB4D2700CB0A59 /* valuEyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valuEyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB280C328EB4D2400CB0A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB280D828EB4D2700CB0A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB280E228EB4D2700CB0A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB280BD28EB4D2300CB0A59 = {
+			isa = PBXGroup;
+			children = (
+				BBB280C828EB4D2400CB0A59 /* valuEye */,
+				BBB280DE28EB4D2700CB0A59 /* valuEyeTests */,
+				BBB280E828EB4D2700CB0A59 /* valuEyeUITests */,
+				BBB280C728EB4D2400CB0A59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB280C728EB4D2400CB0A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB280C628EB4D2400CB0A59 /* valuEye.app */,
+				BBB280DB28EB4D2700CB0A59 /* valuEyeTests.xctest */,
+				BBB280E528EB4D2700CB0A59 /* valuEyeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB280C828EB4D2400CB0A59 /* valuEye */ = {
+			isa = PBXGroup;
+			children = (
+				BBB280C928EB4D2400CB0A59 /* valuEyeApp.swift */,
+				BBB280CB28EB4D2400CB0A59 /* ContentView.swift */,
+				BBB280CD28EB4D2600CB0A59 /* Assets.xcassets */,
+				BBB280D228EB4D2600CB0A59 /* Persistence.swift */,
+				BBB280D428EB4D2600CB0A59 /* valuEye.xcdatamodeld */,
+				BBB280CF28EB4D2600CB0A59 /* Preview Content */,
+			);
+			path = valuEye;
+			sourceTree = "<group>";
+		};
+		BBB280CF28EB4D2600CB0A59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBB280D028EB4D2600CB0A59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBB280DE28EB4D2700CB0A59 /* valuEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB280DF28EB4D2700CB0A59 /* valuEyeTests.swift */,
+			);
+			path = valuEyeTests;
+			sourceTree = "<group>";
+		};
+		BBB280E828EB4D2700CB0A59 /* valuEyeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB280E928EB4D2700CB0A59 /* valuEyeUITests.swift */,
+				BBB280EB28EB4D2700CB0A59 /* valuEyeUITestsLaunchTests.swift */,
+			);
+			path = valuEyeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB280C528EB4D2400CB0A59 /* valuEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB280EF28EB4D2700CB0A59 /* Build configuration list for PBXNativeTarget "valuEye" */;
+			buildPhases = (
+				BBB280C228EB4D2400CB0A59 /* Sources */,
+				BBB280C328EB4D2400CB0A59 /* Frameworks */,
+				BBB280C428EB4D2400CB0A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = valuEye;
+			productName = valuEye;
+			productReference = BBB280C628EB4D2400CB0A59 /* valuEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBB280DA28EB4D2700CB0A59 /* valuEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB280F228EB4D2700CB0A59 /* Build configuration list for PBXNativeTarget "valuEyeTests" */;
+			buildPhases = (
+				BBB280D728EB4D2700CB0A59 /* Sources */,
+				BBB280D828EB4D2700CB0A59 /* Frameworks */,
+				BBB280D928EB4D2700CB0A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB280DD28EB4D2700CB0A59 /* PBXTargetDependency */,
+			);
+			name = valuEyeTests;
+			productName = valuEyeTests;
+			productReference = BBB280DB28EB4D2700CB0A59 /* valuEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBB280E428EB4D2700CB0A59 /* valuEyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB280F528EB4D2700CB0A59 /* Build configuration list for PBXNativeTarget "valuEyeUITests" */;
+			buildPhases = (
+				BBB280E128EB4D2700CB0A59 /* Sources */,
+				BBB280E228EB4D2700CB0A59 /* Frameworks */,
+				BBB280E328EB4D2700CB0A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB280E728EB4D2700CB0A59 /* PBXTargetDependency */,
+			);
+			name = valuEyeUITests;
+			productName = valuEyeUITests;
+			productReference = BBB280E528EB4D2700CB0A59 /* valuEyeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB280BE28EB4D2300CB0A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BBB280C528EB4D2400CB0A59 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					BBB280DA28EB4D2700CB0A59 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BBB280C528EB4D2400CB0A59;
+					};
+					BBB280E428EB4D2700CB0A59 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BBB280C528EB4D2400CB0A59;
+					};
+				};
+			};
+			buildConfigurationList = BBB280C128EB4D2300CB0A59 /* Build configuration list for PBXProject "valuEye" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB280BD28EB4D2300CB0A59;
+			productRefGroup = BBB280C728EB4D2400CB0A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB280C528EB4D2400CB0A59 /* valuEye */,
+				BBB280DA28EB4D2700CB0A59 /* valuEyeTests */,
+				BBB280E428EB4D2700CB0A59 /* valuEyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB280C428EB4D2400CB0A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB280D128EB4D2600CB0A59 /* Preview Assets.xcassets in Resources */,
+				BBB280CE28EB4D2600CB0A59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB280D928EB4D2700CB0A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB280E328EB4D2700CB0A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB280C228EB4D2400CB0A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB280D328EB4D2600CB0A59 /* Persistence.swift in Sources */,
+				BBB280CC28EB4D2400CB0A59 /* ContentView.swift in Sources */,
+				BBB280CA28EB4D2400CB0A59 /* valuEyeApp.swift in Sources */,
+				BBB280D628EB4D2600CB0A59 /* valuEye.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB280D728EB4D2700CB0A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB280E028EB4D2700CB0A59 /* valuEyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB280E128EB4D2700CB0A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB280EC28EB4D2700CB0A59 /* valuEyeUITestsLaunchTests.swift in Sources */,
+				BBB280EA28EB4D2700CB0A59 /* valuEyeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBB280DD28EB4D2700CB0A59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB280C528EB4D2400CB0A59 /* valuEye */;
+			targetProxy = BBB280DC28EB4D2700CB0A59 /* PBXContainerItemProxy */;
+		};
+		BBB280E728EB4D2700CB0A59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB280C528EB4D2400CB0A59 /* valuEye */;
+			targetProxy = BBB280E628EB4D2700CB0A59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBB280ED28EB4D2700CB0A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBB280EE28EB4D2700CB0A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB280F028EB4D2700CB0A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"valuEye/Preview Content\"";
+				DEVELOPMENT_TEAM = N6CBAA43HZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rutwij-patil.valuEye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBB280F128EB4D2700CB0A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"valuEye/Preview Content\"";
+				DEVELOPMENT_TEAM = N6CBAA43HZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rutwij-patil.valuEye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBB280F328EB4D2700CB0A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CBAA43HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rutwij-patil.valuEyeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/valuEye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/valuEye";
+			};
+			name = Debug;
+		};
+		BBB280F428EB4D2700CB0A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CBAA43HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rutwij-patil.valuEyeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/valuEye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/valuEye";
+			};
+			name = Release;
+		};
+		BBB280F628EB4D2700CB0A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CBAA43HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rutwij-patil.valuEyeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = valuEye;
+			};
+			name = Debug;
+		};
+		BBB280F728EB4D2700CB0A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CBAA43HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rutwij-patil.valuEyeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = valuEye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB280C128EB4D2300CB0A59 /* Build configuration list for PBXProject "valuEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB280ED28EB4D2700CB0A59 /* Debug */,
+				BBB280EE28EB4D2700CB0A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB280EF28EB4D2700CB0A59 /* Build configuration list for PBXNativeTarget "valuEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB280F028EB4D2700CB0A59 /* Debug */,
+				BBB280F128EB4D2700CB0A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB280F228EB4D2700CB0A59 /* Build configuration list for PBXNativeTarget "valuEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB280F328EB4D2700CB0A59 /* Debug */,
+				BBB280F428EB4D2700CB0A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB280F528EB4D2700CB0A59 /* Build configuration list for PBXNativeTarget "valuEyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB280F628EB4D2700CB0A59 /* Debug */,
+				BBB280F728EB4D2700CB0A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BBB280D428EB4D2600CB0A59 /* valuEye.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BBB280D528EB4D2600CB0A59 /* valuEye.xcdatamodel */,
+			);
+			currentVersion = BBB280D528EB4D2600CB0A59 /* valuEye.xcdatamodel */;
+			path = valuEye.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BBB280BE28EB4D2300CB0A59 /* Project object */;
+}
