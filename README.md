@@ -1,12 +1,12 @@
 <h1 align="center"><a href="https://organize.mlh.io/participants/events/4390-kickstarting-hacktoberfest-with-acm-vit">Kicking Off Hacktoberfest with ACM-VIT!</a></h1>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/52633729/135446856-ed1de284-c21a-4932-bd70-b4eae149c49c.png">
+<img width="2393" alt="Forktober Banner" src="https://user-images.githubusercontent.com/85751479/194653635-88d77e54-3a36-4c5d-bb12-84baeca774b1.png">
 </p>
 
-<h2 align="center"> PROJECT TITLE </h2>
+<h2 align="center">AlarmIT</h2>
 
 <p align="center"> 
-Short description about the project.
+valuEye is intended to work as a price tracking app that lets the user select a product of their liking and view real-time price updates on the same across multiple websites.
 </p>
 
 <p>
@@ -19,31 +19,25 @@ Short description about the project.
 </p>
 
 ---
-## Overview 
-This app intended to work as a price tracking app that lets the user select an object of their liking and view real-time price updates on the same.
-
-To the Contributors, run the project, add new features, improve UI and database!
-
-Don't forget to add your name and details under Contributors. Happy Coding!
-
-Please consider leaving a ⭐ if you like the repository and our organisation :)
 ## Submitting a Pull Request
 
  * Fork the repository by clicking the fork button on top right corner of the page
  * Clone the target repository. To clone, click on the clone button and copy the https address. Then run 
- <pre><code>git clone [HTTPS-ADDRESS]</code></pre>
+ <pre><code>git clone https://github.com/rudrankbasant/AlarmIT.git</code></pre>
 * Go to the cloned directory by running 
-<pre><code>cd [NAME-OF-REPO]</code></pre>
+<pre><code>cd AlarmIT</code></pre>
 * Create a new branch. Use 
 <pre><code> git checkout -b [YOUR-BRANCH-NAME]</code></pre>
 * Make your changes to the code. Add changes to your branch by using 
 <pre><code>git add .</code></pre>
-* Commit the chanes by executing
-<pre><code>git commit -m "your msg"</code></pre>
+* Commit the changes by executing
+<pre><code>git commit -m "your message"</code></pre>
 * Push to remote. To do this, run 
 <pre><code>git push origin [YOUR-BRANCH-NAME]</code></pre>
 * Create a pull request. Go to the target repository and click on the "Compare & pull request" button. **Make sure your PR description mentions which issues you're solving.**
+<div align="center">
 <img src="https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G&export=download"></img>
+</div>
 * Wait for your request to be accepted. 
 
 ---
@@ -59,13 +53,9 @@ Please consider leaving a ⭐ if you like the repository and our organisation :)
   For additional guidelines, refer to [participation rules](https://hacktoberfest.digitalocean.com/details#rules)
 
 ---
-
--_domain specific guidelines here_-
-  
----
 ## Overview
 
-The overview starts here. Random text about the project, motive, how, what, why etc.
+valuEye is a project initiated for Hacktoberfest2022, so that beginners and those who have some fluency in the iOS app development as well as web development/scraping can start to contribute to an open source project. 
 
 ---
 ## Usage
@@ -81,5 +71,4 @@ git merge
 ---
 ## Authors
 
-**Authors:** <!-- [author1's name](link to their github profile), [author2's name](link to their github profile) .. -->  
-**Contributors:** <!-- Generate contributors list using this link - https://contributors-img.web.app/preview -->
+**Authors:** [Rutwij Patil](https://github.com/Rutwij-Patil)
