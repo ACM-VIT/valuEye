@@ -3,7 +3,7 @@
 <img width="2393" alt="Forktober Banner" src="https://user-images.githubusercontent.com/85751479/194653635-88d77e54-3a36-4c5d-bb12-84baeca774b1.png">
 </p>
 
-<h2 align="center">AlarmIT</h2>
+<h2 align="center">valuEye</h2>
 
 <p align="center"> 
 valuEye is intended to work as a price tracking app that lets the user select a product of their liking and view real-time price updates on the same across multiple websites.
@@ -23,9 +23,9 @@ valuEye is intended to work as a price tracking app that lets the user select a 
 
  * Fork the repository by clicking the fork button on top right corner of the page
  * Clone the target repository. To clone, click on the clone button and copy the https address. Then run 
- <pre><code>git clone https://github.com/rudrankbasant/AlarmIT.git</code></pre>
+ <pre><code>git clone https://github.com/Rutwij-Patil/valuEye.git</code></pre>
 * Go to the cloned directory by running 
-<pre><code>cd AlarmIT</code></pre>
+<pre><code>cd valuEye</code></pre>
 * Create a new branch. Use 
 <pre><code> git checkout -b [YOUR-BRANCH-NAME]</code></pre>
 * Make your changes to the code. Add changes to your branch by using 
