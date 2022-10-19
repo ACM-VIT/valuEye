@@ -4,7 +4,7 @@
 //
 //  Created by Rutwij Patil on 03/10/22.
 //
-
+// Displays the Products selected and serves as a home page
 import SwiftUI
 import CoreData
 
@@ -15,19 +15,19 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+    
     var body: some View {
         NavigationView {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                        pricePage()
                     } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+                        Text("Product \(item.hash) -> Name")
                     }
                 }
                 .onDelete(perform: deleteItems)
-            }
+            }.navigationTitle("valuEye")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
