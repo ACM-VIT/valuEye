@@ -23,7 +23,7 @@ valuEye is intended to work as a price tracking app that lets the user select a 
 
  * Fork the repository by clicking the fork button on top right corner of the page
  * Clone the target repository. To clone, click on the clone button and copy the https address. Then run 
- <pre><code>git clone https://github.com/Rutwij-Patil/valuEye.git</code></pre>
+ <pre><code>git clone https://github.com/ACM-VIT/valuEye.git</code></pre>
 * Go to the cloned directory by running 
 <pre><code>cd valuEye</code></pre>
 * Create a new branch. Use 
